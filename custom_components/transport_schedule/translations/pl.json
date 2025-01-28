@@ -1,0 +1,23 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Konfiguracja Transport Schedule",
+          "description": "Podaj klucz API i dane przystanku.",
+          "data": {
+            "api_key": "Klucz API",
+            "stop_id": "ID przystanku",
+            "transport_type": "Rodzaj transportu",
+            "walking_time": "Czas dojścia (minuty)"
+          }
+        }
+      },
+      "error": {
+        "invalid_stop_id": "Nieprawidłowy format ID przystanku. Oczekiwano 4 cyfr (np. '1234').",
+        "api_error": "Błąd połączenia z API."
+      },
+      "abort": {
+        "already_configured": "Ten przystanek jest już skonfigurowany."
+      }
+    }
+  }

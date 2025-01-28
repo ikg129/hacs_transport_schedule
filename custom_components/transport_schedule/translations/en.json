@@ -1,0 +1,23 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Configure Transport Schedule",
+          "description": "Enter your API key and stop details.",
+          "data": {
+            "api_key": "API Key",
+            "stop_id": "Stop ID",
+            "transport_type": "Transport Type",
+            "walking_time": "Walking Time (minutes)"
+          }
+        }
+      },
+      "error": {
+        "invalid_stop_id": "Invalid stop ID format. Expected 4 digits (e.g., '1234').",
+        "api_error": "Failed to connect to the API."
+      },
+      "abort": {
+        "already_configured": "This stop is already configured."
+      }
+    }
+  }

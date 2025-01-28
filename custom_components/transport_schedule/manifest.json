@@ -1,0 +1,18 @@
+{
+  "domain": "transport_schedule",
+  "name": "Transport Schedule Integration into HA",
+  "version": "1.0.0",
+  "documentation": "https://github.com/ikg129/hacs_transport_schedule/blob/main/README.md",
+  "issue_tracker": "https://github.com/ikg129/hacs_transport_schedule/issues",
+  "requirements": [
+    "aiohttp>=3.8.4",
+    "async_timeout>=4.0.2",
+    "python-dotenv>=1.0.0"
+  ],
+  "dependencies": [],
+  "codeowners": ["@ikg129"],
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "integration_type": "hub",
+  "quality_scale": "no_score"
+}

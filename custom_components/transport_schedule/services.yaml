@@ -1,0 +1,11 @@
+refresh_schedule:
+  name: Refresh schedule
+  description: Force refresh of the transport schedule for a specific stop.
+  fields:
+    stop_id:
+      name: Stop ID
+      description: The ID of the stop to refresh.
+      example: "1234"
+      required: true
+      selector:
+        text:
